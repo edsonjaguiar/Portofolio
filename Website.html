@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="Website.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="ContactUs.html">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>  
+    </head>  
+  <body>
+    <nav>
+      <div class="header">
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+    <ul class="menu">
+      <a href="#home"><i class="fas fa-home"></i> Home</a>
+      <a href="#about"><i class="far fa-address-card"></i> About me</a>
+      <a href="#Skills"><i class="fas fa-code"></i> Skills</a>
+      <a href="#Projects"><i class="fas fa-project-diagram"></i> Projects</a>
+      <a href="#Publications"><i class="fas fa-book"></i> Publications</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+    </ul>
+  </nav>
+</label>
+<div class="header">
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+    </label>
+  </div>
+    <div class="contato2">
+      <a class="insta" href="#"><i class="fas fa-graduation-cap"></i></a>
+      </div>
+      <div class="contato3">
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    </div>
+    <div class="testimonials">
+      <h1 id="image">Profile</h1>
+      <div class="pic">
+        <img src="Erik.jpg" alt="">
+        <ion-icon class="icon" name="quote"></ion-icon>
+        </div>
+        <div class="Txt">
+      <h2>Erikson Aguiar</h2>
+      <h4>Master's candidate</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    </div>
+    </div>
+    <br><br><br><br>
+    <div id="about">
+      <h1 style="font-size: 20px; text-transform: uppercase; display: inline-block; border-bottom: 4px solid; padding-bottom: 10px; border-color: #333; color: black;">About me</h1>
+    </div>
+      <p style="margin-left: 3%; margin-right: 5%;
+      margin-top: 2%; margin-bottom: 5%; color: black; line-height: 200%; font-size: 20px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  </div>
+      <footer class="page-footer font-small black pt-4" style="background: #363C43; text-align: center; color: white; height: auto; width: 100%; background-size: 90px; padding: 17px;">
+              <div class="footer-copyright text-center py-3"> © 2019 Copyright: Edson Aguiar Jr.</div>
+          </footer>
+          <script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
+</body>
+</html>
